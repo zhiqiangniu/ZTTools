@@ -7,12 +7,25 @@
 //
 
 #import "ZTAppDelegate.h"
+#import <ZTTools/ZTTools-umbrella.h>
 
 @implementation ZTAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    BOOL email = [NSString LGValidateEmail:@"163@qq.com"];
+    BOOL email_2 = [NSString LGValidateEmail:@"126486fdsacom"];
+    if (email) {
+        NSLog(@"163.com 是邮箱!");
+    }else{
+        NSLog(@"163.com 不是邮箱!");
+    }
+    if (email_2) {
+        NSLog(@"126486fdsacom 是合法的邮箱！");
+    }else{
+        NSLog(@"126486fdsacom 不是合法的邮箱！");
+    }
     return YES;
 }
 

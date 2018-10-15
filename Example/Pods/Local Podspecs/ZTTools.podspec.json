@@ -1,0 +1,23 @@
+{
+  "name": "ZTTools",
+  "version": "0.1.1",
+  "summary": "ZTTools. /",
+  "description": "ZTTools  p r i v a t e  0.1.1",
+  "homepage": "https://github.com/zhiqiangniu/ZTTools",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zhiqiangniu": "zhitaoNiuX@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/zhiqiangniu/ZTTools.git",
+    "tag": "0.1.1"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ZTTools/Classes/**/*",
+  "frameworks": "UIKit"
+}

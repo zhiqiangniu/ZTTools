@@ -1,0 +1,16 @@
+PODS:
+  - ZTTools (0.1.1)
+
+DEPENDENCIES:
+  - ZTTools (from `../`)
+
+EXTERNAL SOURCES:
+  ZTTools:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZTTools: 19548cab8cc77d4c6fec8b9581829e04ed6f4470
+
+PODFILE CHECKSUM: 662951c28b5f6accdab77c89dae26c632cab1b2f
+
+COCOAPODS: 1.5.0
