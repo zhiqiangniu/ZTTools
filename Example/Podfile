@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ZTTools_Example' do
+  pod 'ZTTools', :path => '../'
+
+  target 'ZTTools_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
