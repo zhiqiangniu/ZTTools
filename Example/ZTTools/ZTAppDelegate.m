@@ -27,6 +27,7 @@
     }else{
         NSLog(@"126486fdsacom 不是合法的邮箱！");
     }
+    NSLog(@"做一个代码的测试！！！");
     return YES;
 }
 
