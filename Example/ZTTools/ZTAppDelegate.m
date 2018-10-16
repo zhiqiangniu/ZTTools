@@ -7,7 +7,8 @@
 //
 
 #import "ZTAppDelegate.h"
-#import <ZTTools/ZTTools-umbrella.h>
+//#import <ZTTools/ZTTools-umbrella.h>
+#import <ZTTools/ZTTools.h>
 
 @implementation ZTAppDelegate
 

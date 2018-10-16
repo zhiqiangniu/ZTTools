@@ -8,5 +8,6 @@
 #ifndef ZTTools_h
 #define ZTTools_h
 
+#import "NSString+LGHelper.h"
 
 #endif /* ZTTools_h */
